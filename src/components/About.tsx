@@ -7,7 +7,7 @@ export default function About() {
             Sobre a clínica
           </h2>
           <p className="mt-4 text-slate-600 leading-relaxed">
-            Na <span className="font-semibold text-slate-900">VivaFisio</span>,
+            Na <span className="font-semibold text-slate-900">Lilithatá</span>,
             unimos ciência, empatia e prática clínica para oferecer um cuidado
             completo ao paciente. Nossa equipe realiza uma avaliação minuciosa,
             define objetivos claros e acompanha de perto cada progresso,

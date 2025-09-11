@@ -7,7 +7,7 @@ export default function Header() {
         <a href="#home" className="inline-flex items-center gap-2">
           <HeartPulse className="w-6 h-6 text-green-600" aria-hidden />
           <span className="text-slate-900 font-semibold text-lg">
-            LeosFisio
+          Lilithatá
           </span>
         </a>
         <nav className="hidden md:flex items-center gap-6 text-slate-700">

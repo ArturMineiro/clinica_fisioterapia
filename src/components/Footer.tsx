@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="border-t border-slate-200 bg-white">
       <div className="mx-auto max-w-7xl px-4 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="text-sm text-slate-600">
-          © {new Date().getFullYear()} VivaFisio — Todos os direitos reservados.
+          © {new Date().getFullYear()} Lilithatá — Todos os direitos reservados.
         </p>
         <div className="flex items-center gap-4 text-slate-600">
           <a href="#" className="hover:text-green-700" aria-label="Instagram">
