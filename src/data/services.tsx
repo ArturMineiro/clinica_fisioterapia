@@ -1,4 +1,4 @@
-import { ShieldCheck, Stethoscope, Dumbbell, Sparkles } from "lucide-react";
+import { ShieldCheck, Sparkles } from "lucide-react";
 
 export type ServiceItem = {
   icon: React.ReactNode;

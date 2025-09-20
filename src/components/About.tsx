@@ -15,29 +15,34 @@ export default function About() {
           </p>
           <ul className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm text-slate-700">
             <li className="flex items-center gap-2">
-              <span className="inline-block h-2 w-2 rounded-full bg-green-600" />{" "}
+              <span className="inline-block h-2 w-2 rounded-full bg-green-600" />
               Profissionais experientes
             </li>
             <li className="flex items-center gap-2">
-              <span className="inline-block h-2 w-2 rounded-full bg-green-600" />{" "}
+              <span className="inline-block h-2 w-2 rounded-full bg-green-600" />
               Protocolos atualizados
             </li>
             <li className="flex items-center gap-2">
-              <span className="inline-block h-2 w-2 rounded-full bg-green-600" />{" "}
+              <span className="inline-block h-2 w-2 rounded-full bg-green-600" />
               Atendimento acolhedor
             </li>
             <li className="flex items-center gap-2">
-              <span className="inline-block h-2 w-2 rounded-full bg-green-600" />{" "}
+              <span className="inline-block h-2 w-2 rounded-full bg-green-600" />
               Estrutura moderna
             </li>
           </ul>
         </div>
+
         <div className="order-1 md:order-2">
-          <img
-            src="https://images.unsplash.com/photo-1580281658229-5f60ae52f3d6?q=80&w=1200&auto=format&fit=crop"
-            alt="Ambiente acolhedor da clínica"
-            className="w-full rounded-2xl object-cover shadow-md"
-          />
+          <iframe
+            className="w-full aspect-video rounded-lg shadow-lg"
+            src="https://www.youtube.com/embed/B2xJXF38MG4?si=XSbX2CXlEXiX2zYx"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
         </div>
       </div>
     </section>
