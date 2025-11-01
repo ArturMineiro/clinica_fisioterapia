@@ -167,7 +167,7 @@ export default function Contact() {
 
             <div className="flex flex-wrap gap-x-6 gap-y-2 pt-2 text-sm text-slate-700">
               <div className="inline-flex items-center gap-2">
-                <Phone className="w-4 h-4" /> (21)966016446
+                <Phone className="w-4 h-4" /> (21) 98777-4406
               </div>
 
               <a

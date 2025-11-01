@@ -7,7 +7,7 @@ export default function Header() {
         <a href="#home" className="inline-flex items-center gap-2">
           <HeartPulse className="w-6 h-6 text-green-600" aria-hidden />
           <span className="text-slate-900 font-semibold text-lg">
-          Lilithatá
+            Lilithatá
           </span>
         </a>
         <nav className="hidden md:flex items-center gap-6 text-slate-700">
@@ -23,8 +23,12 @@ export default function Header() {
           <a href="#team" className="hover:text-green-700 transition">
             Equipe
           </a>
+
           <a href="#contact" className="hover:text-green-700 transition">
             Contato
+          </a>
+          <a href="#jobs" className="hover:text-green-700 transition">
+            Vagas
           </a>
         </nav>
         <a
@@ -45,6 +49,8 @@ export default function Header() {
           <span className="i">☰</span>
         </button>
       </div>
+
+      {/* Menu Mobile */}
       <div
         id="mobile-nav"
         className="md:hidden hidden border-t border-slate-200 bg-white"
@@ -62,8 +68,12 @@ export default function Header() {
           <a href="#team" className="hover:text-green-700">
             Equipe
           </a>
+
           <a href="#contact" className="hover:text-green-700">
             Contato
+          </a>
+          <a href="#jobs" className="hover:text-green-700">
+            Vagas
           </a>
           <a
             href="#contact"
